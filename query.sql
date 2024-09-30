@@ -20,7 +20,7 @@ order by
 	tft.plan_value desc
     ) as contractors
 from
-	tft.table_first_task tft
+	table_first_task tft
 group by
 	tft.project,
 	tft.constructive,
